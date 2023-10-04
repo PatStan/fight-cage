@@ -4,4 +4,8 @@
     <EnableDynamicLoading>true</EnableDynamicLoading>
     <RootNamespace>FightCage</RootNamespace>
   </PropertyGroup>
+  
+    <ItemGroup>
+    <None Include="**/*.tscn"/>
+  </ItemGroup>
 </Project>
