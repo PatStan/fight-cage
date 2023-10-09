@@ -1,8 +1,12 @@
-[gd_scene load_steps=6 format=3 uid="uid://dy6wgqhfcg8m0"]
+[gd_scene load_steps=6 format=3 uid="uid://btwyrisqx0rl"]
 
-[ext_resource type="Texture2D" uid="uid://dvbo5sxl4vxb6" path="res://Asset/Sprite/Fighter/walk_0.png" id="1_5h150"]
-[ext_resource type="Script" path="res://Script/Player.cs" id="1_sbyxn"]
-[ext_resource type="Texture2D" uid="uid://bf1heiy5gea8s" path="res://Asset/Sprite/Fighter/walk_1.png" id="2_2srq6"]
+[ext_resource type="Script" path="res://Script/Player.cs" id="1_0xcre"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ag4lt"]
+load_path = "res://.godot/imported/walk_0.png-34c7e264f94d908b791f1f66774400e1.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nfew1"]
+load_path = "res://.godot/imported/walk_1.png-0094741bdf0bedc2fda70e51624495c8.ctex"
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_obcys"]
 animations = [{
@@ -13,10 +17,10 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_5h150")
+"texture": SubResource("CompressedTexture2D_ag4lt")
 }, {
 "duration": 1.0,
-"texture": ExtResource("2_2srq6")
+"texture": SubResource("CompressedTexture2D_nfew1")
 }],
 "loop": true,
 "name": &"walk",
@@ -29,7 +33,7 @@ height = 114.0
 
 [node name="Player" type="Area2D"]
 position = Vector2(166, 81)
-script = ExtResource("1_sbyxn")
+script = ExtResource("1_0xcre")
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

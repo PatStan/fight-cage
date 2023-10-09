@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bf1heiy5gea8s"
-path="res://.godot/imported/walk_1.png-0094741bdf0bedc2fda70e51624495c8.ctex"
+uid="uid://ds6vun6i71fpn"
+path="res://.godot/imported/roy_punch.png-80fec15d1e105ab26018a4f97ad69654.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset/Sprite/Fighter/walk_1.png"
-dest_files=["res://.godot/imported/walk_1.png-0094741bdf0bedc2fda70e51624495c8.ctex"]
+source_file="res://Asset/Sprite/Fighter/roy_punch.png"
+dest_files=["res://.godot/imported/roy_punch.png-80fec15d1e105ab26018a4f97ad69654.ctex"]
 
 [params]
 

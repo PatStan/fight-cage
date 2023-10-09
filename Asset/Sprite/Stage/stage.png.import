@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dvbo5sxl4vxb6"
-path="res://.godot/imported/walk_0.png-34c7e264f94d908b791f1f66774400e1.ctex"
+uid="uid://dcsvj8f7lvrlj"
+path="res://.godot/imported/stage.png-2677cf8c6ce8741ebba2ecf3dd999508.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset/Sprite/Fighter/walk_0.png"
-dest_files=["res://.godot/imported/walk_0.png-34c7e264f94d908b791f1f66774400e1.ctex"]
+source_file="res://Asset/Sprite/Stage/stage.png"
+dest_files=["res://.godot/imported/stage.png-2677cf8c6ce8741ebba2ecf3dd999508.ctex"]
 
 [params]
 
